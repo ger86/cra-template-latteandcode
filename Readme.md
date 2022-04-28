@@ -30,12 +30,16 @@ If you like it, you can invite me a coffee here:
 
 ## How to use it
 
+### From npm
+
+npx create-react-app my-app --template latteandcode
+
 ### From local
 
 You can clone this repository and execute:
 
 ```
-npx create-react-app my-app --template file:path-to-file/cra-template-latteandfront
+npx create-react-app my-app --template file:path-to-file/cra-template-latteandcode
 ```
 
 ## Available Scripts
