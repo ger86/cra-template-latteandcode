@@ -2,6 +2,42 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) using the template Latte and Front.
 
+## What will you find here
+
+This app is configured to work under **React 18** and **React Router v6**.
+
+But the important part is that it has my favourite configuration for **Prettier** and **ESLint**, so your code will look amazing and shiny in style. For example, it uses the rules from `eslint-plugin-import`, so `import` statements are reordered everytime you run **Eslint**. No more random orders for our imports!
+
+Besides, `Husky` is configure to run Prettier and ESLint before doing a commit, so you can be sure of all the code having the same style after a commit.
+
+```
+"lint-staged": {
+    "src/*.{js}": "eslint",
+    "src/**/*.{js,jsx,json,css,scss,md}": "prettier -w -u"
+},
+"scripts": {
+    "postinstall": "husky install"
+}
+```
+
+Of course, you are free to clone this repo and introduce any modifications.
+
+If you like it, you can invite me a coffee here:
+
+☕️ https://www.buymeacoffee.com/latteandcode
+
+💛 Enjoy it!
+
+## How to use it
+
+### From local
+
+You can clone this repository and execute:
+
+```
+npx create-react-app my-app --template file:path-to-file/cra-template-latteandfront
+```
+
 ## Available Scripts
 
 In the project directory, you can run:
