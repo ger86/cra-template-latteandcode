@@ -18,8 +18,8 @@ module.exports = {
       presets: ['@babel/preset-react']
     }
   },
-  plugins: ['react', 'prettier', 'react-hooks', 'import'],
-  extends: ['eslint:recommended', 'prettier', 'plugin:import/recommended'],
+  plugins: ['prettier', 'import'],
+  extends: ['eslint:recommended', 'prettier', 'plugin:import/recommended', 'react-app'],
   root: true,
   rules: {
     semi: [2, 'always', {omitLastInOneLineBlock: true}],
